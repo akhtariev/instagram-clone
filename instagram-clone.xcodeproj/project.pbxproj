@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C10252742210F44C002CBE85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10252732210F44C002CBE85 /* AppDelegate.swift */; };
-		C10252762210F44C002CBE85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10252752210F44C002CBE85 /* ViewController.swift */; };
 		C10252792210F44C002CBE85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C10252772210F44C002CBE85 /* Main.storyboard */; };
 		C102527B2210F44D002CBE85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C102527A2210F44D002CBE85 /* Assets.xcassets */; };
 		C102527E2210F44D002CBE85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C102527C2210F44D002CBE85 /* LaunchScreen.storyboard */; };
+		C102528A2210F4AB002CBE85 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10252892210F4AB002CBE85 /* Extensions.swift */; };
+		C102528C2210F4CD002CBE85 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102528B2210F4CD002CBE85 /* LoginVC.swift */; };
+		C102529022128692002CBE85 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102528F22128692002CBE85 /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C10252702210F44C002CBE85 /* instagram-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instagram-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10252732210F44C002CBE85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C10252752210F44C002CBE85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C10252782210F44C002CBE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C102527A2210F44D002CBE85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C102527D2210F44D002CBE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C102527F2210F44D002CBE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C10252892210F4AB002CBE85 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C102528B2210F4CD002CBE85 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C102528F22128692002CBE85 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,48 @@
 		C10252722210F44C002CBE85 /* instagram-clone */ = {
 			isa = PBXGroup;
 			children = (
+				C10252882210F477002CBE85 /* Utils */,
+				C10252872210F470002CBE85 /* Controller */,
+				C10252862210F466002CBE85 /* View */,
+				C10252852210F45D002CBE85 /* Model */,
 				C10252732210F44C002CBE85 /* AppDelegate.swift */,
-				C10252752210F44C002CBE85 /* ViewController.swift */,
 				C10252772210F44C002CBE85 /* Main.storyboard */,
 				C102527A2210F44D002CBE85 /* Assets.xcassets */,
 				C102527C2210F44D002CBE85 /* LaunchScreen.storyboard */,
 				C102527F2210F44D002CBE85 /* Info.plist */,
 			);
 			path = "instagram-clone";
+			sourceTree = "<group>";
+		};
+		C10252852210F45D002CBE85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C10252862210F466002CBE85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C10252872210F470002CBE85 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C102528B2210F4CD002CBE85 /* LoginVC.swift */,
+				C102528F22128692002CBE85 /* SignUpVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C10252882210F477002CBE85 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C10252892210F4AB002CBE85 /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C10252762210F44C002CBE85 /* ViewController.swift in Sources */,
+				C102529022128692002CBE85 /* SignUpVC.swift in Sources */,
 				C10252742210F44C002CBE85 /* AppDelegate.swift in Sources */,
+				C102528A2210F4AB002CBE85 /* Extensions.swift in Sources */,
+				C102528C2210F4CD002CBE85 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
