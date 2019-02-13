@@ -71,6 +71,7 @@ class SignUpVC:
         tf.borderStyle = .roundedRect
         tf.font = UIFont.systemFont(ofSize: 14)
         tf.addTarget(self, action: #selector(formValidation), for: .editingChanged)
+        tf.autocapitalizationType = .none
         return tf
     }()
     
