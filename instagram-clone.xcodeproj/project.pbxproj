@@ -16,6 +16,12 @@
 		C102529022128692002CBE85 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102528F22128692002CBE85 /* SignUpVC.swift */; };
 		C102529222129032002CBE85 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C102529122129032002CBE85 /* GoogleService-Info.plist */; };
 		C10252942213CDE4002CBE85 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10252932213CDE4002CBE85 /* Constants.swift */; };
+		C1025296222376CC002CBE85 /* MainTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1025295222376CC002CBE85 /* MainTabVC.swift */; };
+		C102529822237EA1002CBE85 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102529722237EA1002CBE85 /* FeedVC.swift */; };
+		C102529A22237EE5002CBE85 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102529922237EE5002CBE85 /* SearchVC.swift */; };
+		C102529C222381D4002CBE85 /* UploadPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102529B222381D4002CBE85 /* UploadPostVC.swift */; };
+		C102529E22238249002CBE85 /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102529D22238249002CBE85 /* NotificationsVC.swift */; };
+		C10252A022238271002CBE85 /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102529F22238271002CBE85 /* UserProfileVC.swift */; };
 		C9D69FFA2A79A7FD612DB918 /* Pods_instagram_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D82DC3BE5F8891C1BC7B285 /* Pods_instagram_clone.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +40,12 @@
 		C102528F22128692002CBE85 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		C102529122129032002CBE85 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C10252932213CDE4002CBE85 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C1025295222376CC002CBE85 /* MainTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabVC.swift; sourceTree = "<group>"; };
+		C102529722237EA1002CBE85 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		C102529922237EE5002CBE85 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		C102529B222381D4002CBE85 /* UploadPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostVC.swift; sourceTree = "<group>"; };
+		C102529D22238249002CBE85 /* NotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
+		C102529F22238271002CBE85 /* UserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +129,13 @@
 		C10252872210F470002CBE85 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C102528B2210F4CD002CBE85 /* LoginVC.swift */,
-				C102528F22128692002CBE85 /* SignUpVC.swift */,
+				C10252A1222CA944002CBE85 /* Login */,
+				C1025295222376CC002CBE85 /* MainTabVC.swift */,
+				C102529722237EA1002CBE85 /* FeedVC.swift */,
+				C102529922237EE5002CBE85 /* SearchVC.swift */,
+				C102529B222381D4002CBE85 /* UploadPostVC.swift */,
+				C102529D22238249002CBE85 /* NotificationsVC.swift */,
+				C102529F22238271002CBE85 /* UserProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -130,6 +147,15 @@
 				C10252932213CDE4002CBE85 /* Constants.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		C10252A1222CA944002CBE85 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C102528B2210F4CD002CBE85 /* LoginVC.swift */,
+				C102528F22128692002CBE85 /* SignUpVC.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C102529C222381D4002CBE85 /* UploadPostVC.swift in Sources */,
+				C102529A22237EE5002CBE85 /* SearchVC.swift in Sources */,
+				C10252A022238271002CBE85 /* UserProfileVC.swift in Sources */,
 				C10252942213CDE4002CBE85 /* Constants.swift in Sources */,
+				C102529E22238249002CBE85 /* NotificationsVC.swift in Sources */,
+				C102529822237EA1002CBE85 /* FeedVC.swift in Sources */,
+				C1025296222376CC002CBE85 /* MainTabVC.swift in Sources */,
 				C102529022128692002CBE85 /* SignUpVC.swift in Sources */,
 				C10252742210F44C002CBE85 /* AppDelegate.swift in Sources */,
 				C102528A2210F4AB002CBE85 /* Extensions.swift in Sources */,

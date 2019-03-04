@@ -21,6 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = UINavigationController(rootViewController: LoginVC())
         
         FirebaseApp.configure()
+        
+        window?.rootViewController = MainTabVC()
+        
         return true
     }
     
